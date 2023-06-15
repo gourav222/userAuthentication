@@ -1,0 +1,42 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin: 15vmax 0 0 0;
+}
+.home button {
+  background: none;
+  border: none;
+  background-color: initial;
+  background-image: linear-gradient(#8614f8 0, #760be0 100%);
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -4px;
+  outline: 0;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: 120px;
+  margin: 0 2vmax 0 0;
+}
+.home button:hover{
+    opacity: 0.9;
+}
+.home button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7vmax;
+}
+
+
